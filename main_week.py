@@ -94,7 +94,7 @@ def main():
                 st.write(result_df)
 
             else:
-                st.write("No dataframes were generated.")
+                st.write("No dataframes were generated!")
     else:
         st.error("Please make sure the ending date is after the starting date and the selected date range is within the last week.")
 
