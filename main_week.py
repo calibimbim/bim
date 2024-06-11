@@ -85,10 +85,10 @@ def main():
 
                 # Customize the final CSV file name to include the date range
                 #date_range_str = f'{from_date}_{to_date}'
-                now = datetime.now()
-                final_csv_filename = f'{keyword}{now}.csv'
-                result_df.to_csv(final_csv_filename, index=False)
-                st.write(f"Saved the final data to `{final_csv_filename}`")
+                #now = datetime.now()
+                #final_csv_filename = f'{keyword}{now}.csv'
+                #result_df.to_csv(final_csv_filename, index=False)
+                #st.write(f"Saved the final data to `{final_csv_filename}`")
 
                 # Display the resulting DataFrame
                 st.write(result_df)
