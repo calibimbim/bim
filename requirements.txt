@@ -29,7 +29,7 @@ protobuf==4.25.3
 pyarrow==15.0.2
 pydeck==0.8.1b0
 Pygments==2.17.2
-pygooglenews==0.1.2
+pygooglenews==0.1.1
 pymongo==3.12.3
 python-dateutil==2.9.0.post0
 python-dotenv==0.19.2
